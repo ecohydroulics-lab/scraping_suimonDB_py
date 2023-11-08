@@ -15,7 +15,7 @@ import datetime
 
 def init():
     """
-    data_url : 流量のデータを取得したいとき使用するurl
+    data_url : 流量のデータを取得したいとき使用するurla
                "http://www1.river.go.jp/cgi-bin/DspWaterData.exe?KIND=5&ID={0}&BGNDATE={1}&ENDDATE={2}&KAWABOU=NO"
                
                水位を取得したいときに使用するurl
