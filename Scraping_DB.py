@@ -30,7 +30,7 @@ def init():
     
     end_year :  データ取得終了年
     
-    result_filename : スクレイピングしたデータをまとめて，出力するエクセルファイルのパス
+    result_filename : スクレイピングしたデータをまとめて，出力するエクセルファイルのパス.
     """
     
     data_url = "http://www1.river.go.jp/cgi-bin/DspWaterData.exe?KIND=5&ID={0}&BGNDATE={1}&ENDDATE={2}&KAWABOU=NO"
